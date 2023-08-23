@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main_body">
+    <div class="center_body">
+      <h1>NI Tutor</h1>
+      <h2>404-Error page</h2>
+      <p>You didn't break the net,but we can't find what you are looking for :(</p>
+      <a href="" target="_blank"> go to homepage</a>
+    </div>
+  </div>
+
+
+
+  ..
+
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    .mySlides {
+      display: none
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+      cursor: pointer
+    }
+
+    .w3-badge {
+      height: 13px;
+      width: 13px;
+      padding: 0
+    }
+
+    .w3-container {
+      text-align: center;
+      font-size: 20px;
+      color: white;
+    }
+  </style>
+
+</body>
+
+<div class="w3-container">
+  <h2>Types Of Error</h2>
+  <p>There are Some Kinds off Error. You Might Face</p>
+</div>
+
+
+
+<div class="w3-content w3-display-container" style="max-width:400px">
+  <img class="mySlides" src="images/pngwing.com (7).png" style="width:400px; height: 300px;">
+  <img class="mySlides" src="images/errorpage2.png" style="width:400px; height: 300px;">
+  <img class="mySlides" src="images/errorpage3.png" style="width:400px; height: 300px;">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+
+</div>
+<div class="row" style="display: flex; padding-top: 3pc;">
+
+  <div class="text" style="color: white; padding-top: 3pc; padding-left: 3pc;">
+    <h3>Blocked Files</h3>
+    <br>
+    <p><b>Error:</b> Some files might be blocked by Windows due to security settings, which can prevent the application
+      from
+      running. While installing application please read the installation process properply. <br>
+      <b>Solution:</b> Unblock the files by right-clicking the blocked file, selecting "Properties," and clicking the
+      "Unblock"
+      button if available.
+    </p>
+  </div>
+  <div class="column">
+    <img src="images/blockedfile.png" style="width: 400px; height: 300px; opacity: 1.0; padding-right: 2pc;">
+  </div>
+</div>
+<div class="row" style="display: flex; padding-top: 3pc;">
+  <div class="column" style="padding-left: 2pc;">
+    <img src="images/nointernet.png" style="width: 400px; height: 300px;">
+  </div>
+  <div class="text" style="color: white; padding-top: 3pc; padding-left: 3pc;">
+    <h3>No Internet</h3>
+    <br>
+    <p>The application you're using requires an active internet connection to provide you with the best experience.
+      Without a connection, certain features may not work as expected. Remember, a strong and stable internet connection
+      is the key to unlocking the full potential of our application. We appreciate your patience and apologize for any
+      inconvenience.
+    </p>
+  </div>
+
+</div>
+<div class="row" style="display: flex; padding-top: 3pc;">
+
+  <div class="text" style="color: white; padding-top: 3pc; padding-left: 3pc;">
+    <h3>Threat Detection</h3>
+    <br>
+    <p>Due to threat the application may fail to install, While Installing the application Choose Run anyway options to install the application. 
+    </p>
+  </div>
+  <div class="column">
+    <img src="images/Security and Threat Detection.png"
+      style="width: 400px; height: 300px; opacity: 1.0; padding-right: 2pc;">
+  </div>
+</div>
+<!-- <div>
+    <a href="https://www.instagram.com/ronitshrivastav_07/">Intagram</a>
+
+  </div> -->
+
+<div style="padding-top: 4pc; color: white; text-align: center;">
+  <P>Copyright &#169; 2023 NI Tutor</P>
+</div>
+<div style="text-align: center; color: white;">
+  <P>Made By Ronit Shrivastav (RS7) | NI Tutor Error Page</P>
+</div>
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = x.length }
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    x[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " w3-white";
+  }
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
